@@ -1,0 +1,23 @@
+* defer -> É um atributo que sinaliza ao navegador para executar script somente quando o HTML ja estiver carregado
+	<script src = "exemplo.js"  defer></script>
+
+
+* pointer-events -> controla um elemento gráfico para eventos do mouse, se vai ser clicável ou não
+
+* flex:1; -> define a proporção que o elemento flexivel crescerá
+
+* preventDefault -> É um metodo javascript para interromper um fluxo padrão de evento e substituir para um fluxo personalizado. Por exemplo, um formulário, podemos personalizar o evento para validar os dados antes que seja enviado ao banco de dados.
+
+* className -> substitui o que tem para uma nova classe.
+* classList -> É um objeto que representa a lista de classes de um elemento, fornece metodos para adicionar(add), remover(remove), contem(contains) e alternar(toggle).
+
+* firstChild -> retorna o primeiro elemento filho
+
+* firstElementChild -> retorna o primeiro filho do elemento 
+
+OBS é recomendado usar innerText quando você deseja trabalhar apenas com texto visível e innerHTML quando precisa manipular ou inserir código HTML dentro de um elemento.
+
+* e.target -> Mostra o alvo do evento. Se o evento é de clique, o target vai mostrar quem foi o alvo do clique, assim, podemos identificar onde foi clicado.
+
+
+* closest -> é um metodo utilizado em um elemento, para encontrar o ancestral mais proximo desse elemento, baseado no seletor que foi especificado como parametro.
